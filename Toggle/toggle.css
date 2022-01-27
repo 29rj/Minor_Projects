@@ -1,0 +1,33 @@
+body{
+	text-align: center;
+}
+
+
+#outer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#inner-2 h1{
+	margin: 0px;
+}
+
+#inner-1{
+	margin: 20px;
+	background-color: white;
+	border-radius:30px ;
+	border: 2px solid black;
+	display: flex;
+	width: 5%;
+	justify-content: left;
+	padding: 1px;
+}
+
+#sub-inner1{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: black;
+}

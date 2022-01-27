@@ -1,0 +1,64 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid black;*/
+	height: 90vh;
+}
+
+#outer{
+	display: flex;
+	flex-direction: column;
+	height: 60%;
+	width: 200px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#one-div{
+	border-radius:50% ;
+	height: 180px;
+	width: 180px;
+	background-color: red;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#one-sub-div {
+	height:0px;
+	width:0px;
+
+	background-color: white;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: 23%;
+	left: 23%;
+
+	border-left: 50px solid red;
+	border-right: 50px solid red;
+	border-bottom:100px solid white;
+}
+
+
+#two-div,#three-div{
+	width: 200px;
+	/*border: 1px solid red;*/
+	margin: 10px;
+}
+
+button{
+	width: inherit;
+	height: 2.5rem;
+	border-radius: 2%;
+	border: 2px solid lightgrey;
+}
+
+button span{
+	font-size: 1rem;
+}
+
+button:hover{
+	border-color: grey;
+	transition: 0.5s ease-in-out;
+}
